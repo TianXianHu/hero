@@ -77,6 +77,18 @@ p {
   padding: 120px 60px;
 }
 
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -84,13 +96,22 @@ p {
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 32px;
+    text-align: center;
   }
 
   .hero {
     padding: 80px 20px;
   }
+  p {
+    text-align: center;
+  }
 
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
   .project-desciption {
     padding: 0;
     text-align: center;
